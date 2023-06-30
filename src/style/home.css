@@ -1,0 +1,37 @@
+.carosalContainer{
+    width: 100%;
+    max-height: 40rem;
+    overflow: hidden;
+    position: relative;
+    padding: 1rem;
+}
+
+.carosalTitle{
+    display: flex;
+    position: absolute;
+    background-color: black;
+    top: 5rem;
+    margin-right: 5rem;
+    left: 5rem;
+    color: white;
+    opacity: 0.6;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: 900;
+}
+
+.carosalBtn{
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+    padding: 10px 1rem;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    font-weight: 900
+}
+
+.carosalBtn:hover{
+    box-shadow: black 0px 0px 10px;
+}
